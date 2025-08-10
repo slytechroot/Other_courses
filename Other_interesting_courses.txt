@@ -21,4 +21,14 @@ Master program:
 https://www.utm.ro/admitere-master-facultatea-de-informatica-2025/#1741854123701-d4fa6900-5423
 https://www.utm.ro/facultatea-de-informatica/prezentare/
 
+AWS EKS Kubernetes - Masterclass
+https://github.com/stacksimplify/aws-eks-kubernetes-masterclass
 
+Docker Fundamentals
+https://github.com/stacksimplify/docker-fundamentals
+
+Kubernetes Fundamentals
+https://github.com/stacksimplify/kubernetes-fundamentals
+
+Thank You !!!!!!!
+################################
