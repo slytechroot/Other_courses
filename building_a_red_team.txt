@@ -1,0 +1,77 @@
+#######################
+# Building A Red Team #
+#######################
+--------------------------------------------------------------------------------
+A good Red Team Overview document:
+https://www.contextis.com/media/downloads/Context_Red_Teaming_Guide.pdf
+
+
+Red Team Program Goals:
+Here are some references that you can use to derive your Red Team program goals from. These will serve as the foundation for building your Red Team charter.
+
+https://www.synopsys.com/content/dam/synopsys/sig-assets/case-studies/red-teaming-financial-services.pdf
+page 4
+
+https://abs.org.sg/docs/library/abs-red-team-adversarial-attack-simulation-exercises-guidelines-v1-06766a69f299c69658b7dff00006ed795.pdf
+page 11 - 13
+
+
+Red Team Technical Goals:
+If you are just looking for some really generic goals that you can use to measure the performance of technical people I think you should consider:
+
+Task 1: Integrate Blue Team/Threat Intel data
+
+Task 1a: Work with Blue Team and Threat Intel (Internal and/or External) to understand the threats facing the organization, and its assets. 
+Task 1b: Then craft attack campaigns that emulate these threats/threat actors. 
+               Reference:
+              https://www.slideshare.net/HaydnJohnson/how-to-plan-purple-team-exercises
+Task 1c: Theorize how Blue Team/SOC should be able to detect these types of threats. 
+Task 1d: Work with Blue Team/SOC representatives so they can understand the campaign objectives
+
+Interval:                                      Quarterly: 
+Evaluation Criteria:                     How well does the RT work with the other teams to create realistic campaigns
+
+
+Task 2: Attempt to avoid detection during campaigns
+
+Task 2a: Work with Blue Team/SOC to determine how the Red Team was detected if at all (External gateway security appliance, proxy solution, network security appliance, AV, endpoint security solution, etc). 
+Task 2b: Determine how well the RT was able to determine what tool/process should have detected them
+Task 2c: Determine how well the Blue Team/SOC was able to tune their processes to detect the RT campaign 
+Task 2d: Work with Blue Team/SOC representatives so they can understand the campaign objectives
+
+Interval:                                      Quarterly: 
+Evaluation Criteria:                     How well does the RT successfully accomplish the campaign objectives
+                                                   How well does the RT assist the Blue Team/SOC with improving detection/IR processes, and tuning of security products
+
+
+Task 3: Build internal knowledge base
+
+Task 3a: Build an internal knowledge base that contains system build/configuration info for the entire Red Team Infrastructure
+              Reference:
+              https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
+              https://holdmybeersecurity.com/2018/04/30/tales-of-a-red-teamer-ub-2018/
+              https://ired.team/offensive-security/red-team-infrastructure
+
+Task 3b: Build an internal attack process wiki that has all of the command-line syntax, and references used for each campaign
+              Reference:
+              https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
+              https://github.com/infosecn1nja/Red-Teaming-Toolkit
+              
+Task 3c: Build an internal R&D process
+              Bug Bounty Methodology References:
+              https://github.com/jhaddix/tbhm
+              https://nullcon.net/website/archives/pdf/goa-2018/jason-tbhm2.pdf
+              https://pentester.land/conference-notes/2018/08/02/levelup-2018-the-bug-hunters-methodology-v3.html
+   
+             Mobile App References:
+             https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet
+             https://mitre-attack.github.io/attack-navigator/mobile/
+
+              Exploit Development References:
+              https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Exploit_Dev.md
+
+Interval:                                      Quarterly: 
+Evaluation Criteria:                     How thorough is the documentation, how well can this documentation be used for on-boarding new RT members
+                                                   How well does the RT assist the Blue Team/SOC with improving detection/IR processes, and tuning of security products against attacks
+
+------------------------------------------------------------------------------------------------------------
